@@ -14,7 +14,6 @@ import ContentPanel from './components/ContentPanel.vue';
   </header>
 
   <main>
-    <!-- <TheWelcome /> -->
     <ContentPanel />
   </main>
 </template>
@@ -25,7 +24,7 @@ import ContentPanel from './components/ContentPanel.vue';
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 
   font-weight: normal;
 }
@@ -67,7 +66,8 @@ a,
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    margin: auto;
+    /* padding-right: calc(var(--section-gap) / 2); */
   }
 
   header .wrapper {
