@@ -9,7 +9,7 @@
         <button>Sedimentary</button>
         <button>Metamorphic</button>
         <button>Diamond</button>
-        <button>Igneous</button>
+        <button>Igneous long answer</button>
     </div>
 
 
@@ -20,8 +20,8 @@
 <style scoped>
 .item {
   /* display: flex; */
-  padding: 3rem;
-  width: 80%;
+  padding: 2rem;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -49,6 +49,13 @@ button {
     margin-top: 0;
     border-left: 2px solid var(--color-border);
     width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .item {
+    width: 90%;
+    padding: 2rem 0.2rem;
     }
 }
 </style>
