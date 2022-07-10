@@ -1,11 +1,12 @@
 <script setup>
 import Greeter from './components/Greeter.vue';
 import TheWelcome from './components/TheWelcome.vue'
+import ContentPanel from './components/ContentPanel.vue';
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/check.png" width="125" height="125" />
+    <img alt="Logo" class="logo" src="./assets/check.png" width="125" height="125" />
 
     <div class="wrapper">
       <Greeter msg="Quiz time!" />
@@ -13,7 +14,8 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <!-- <TheWelcome /> -->
+    <ContentPanel />
   </main>
 </template>
 
@@ -59,7 +61,7 @@ a,
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 0 0 6rem 0;
   }
 
   header {
@@ -75,7 +77,7 @@ a,
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 0 2rem 0 2rem;
   }
 }
 </style>
