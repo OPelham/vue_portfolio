@@ -23,6 +23,9 @@
 
 /* semantic color variables for this project */
 :root {
+  --colour-accent: hsl(0, 82%, 63%);
+  --colour-accent-fade: hsla(0, 82%, 63%, 0.2);
+
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
   --color-background-mute: var(--vt-c-white-mute);
